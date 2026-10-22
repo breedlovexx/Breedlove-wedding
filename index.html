@@ -1,66 +1,73 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#faf2e7">
-<meta name="description" content="The BreedLoveXXperience — LaShanna & Rodney. Our Love. Our Way. Save the date: October 10, 2027.">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#faf3e8">
+<meta name="description" content="The BreedLoveXXperience — Rodney & LaShanna. Our Love. Our Way. Save the date: October 10, 2027.">
 <title>The BreedLoveXXperience | Save the Date</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--wine:#642334;--orange:#C55A11;--gold:#bd9863;--ink:#503a37;--paper:#fff9f0}
-*{box-sizing:border-box}
-html{background:var(--paper)}
-body{margin:0;color:var(--ink);font-family:'DM Sans',sans-serif;background:radial-gradient(circle at 50% 35%,#fffdf8 0%,#f8ecdd 100%)}
-.site{isolation:isolate;position:relative;overflow:hidden;min-height:100svh;padding:clamp(20px,3.2vw,45px);display:flex;align-items:center;justify-content:center}
-.corner{position:absolute;z-index:0;pointer-events:none;object-fit:contain}
-.corner.top{right:0;top:0;width:clamp(190px,26vw,370px)}
-.corner.bottom{left:0;bottom:0;width:clamp(260px,41vw,680px)}
-.frame{width:min(100%,1460px);position:relative;z-index:1;border:1px solid rgba(171,124,77,.62);outline:1px solid rgba(171,124,77,.35);outline-offset:-10px;padding:clamp(34px,5vw,65px) clamp(20px,5vw,72px);background:rgba(255,251,244,.08)}
+:root{--wine:#642334;--orange:#C55A11;--gold:#bd9863;--cream:#fff7eb}
+*{box-sizing:border-box}html{background:var(--cream)}body{margin:0;background:radial-gradient(ellipse at 45% 39%,#fffdf8,#f8ecdd);color:var(--wine);font-family:'DM Sans',sans-serif}
+.page{position:relative;isolation:isolate;min-height:100svh;overflow:hidden;padding:clamp(12px,2.2vw,32px);display:flex;align-items:center;justify-content:center}
+.floral{position:absolute;pointer-events:none;z-index:0;object-fit:contain}
+.floral.top{width:clamp(270px,42vw,660px);right:0;top:0;object-position:top right}
+.floral.bottom{width:clamp(330px,49vw,760px);left:0;bottom:0;object-position:bottom left}
+.paper{position:relative;z-index:1;width:min(100%,1450px);padding:clamp(33px,4.3vw,64px) clamp(22px,5vw,72px) clamp(22px,3vw,40px);border:1px solid rgba(174,133,84,.66);outline:1px solid rgba(174,133,84,.34);outline-offset:-9px;background:rgba(255,249,240,.05)}
 header{text-align:center;position:relative;z-index:2}
-h1{color:var(--wine);font:400 clamp(3.15rem,7.1vw,7.2rem)/1.08 'Great Vibes',cursive;margin:0;overflow-wrap:anywhere}
-.couple{color:var(--orange);font:400 clamp(2rem,3.6vw,3.7rem)/1.1 'Great Vibes',cursive;margin:5px 0 18px}
-.ornament{display:flex;gap:12px;align-items:center;justify-content:center;color:var(--gold);font-size:20px}.ornament::before,.ornament::after{content:"";height:1px;width:100px;max-width:16vw;background:var(--gold)}
-.content{display:grid;grid-template-columns:1.09fr .91fr;align-items:center;gap:clamp(28px,4vw,70px);margin:28px auto 0;max-width:1210px}
-.photo{margin:0;min-width:0}.photo img{width:100%;height:auto;display:block;border:9px solid #fff7ec;outline:1px solid #d4b88e;box-shadow:0 12px 30px rgba(72,43,24,.12)}
-.info{text-align:center;min-width:0}.theme{font:italic 500 clamp(1.5rem,2.4vw,2.15rem) 'Cormorant Garamond',serif;color:var(--wine);margin:0 0 12px}.rule{height:1px;background:var(--gold);width:110px;margin:0 auto 15px}
-.date{font:400 clamp(2.2rem,4.2vw,4.1rem)/1.04 'Cormorant Garamond',serif;color:var(--wine);margin:0 0 14px}
-.details{font-size:.76rem;letter-spacing:.3em;color:var(--orange);font-weight:600;margin:0 0 19px}.sub{font:italic 400 clamp(1.15rem,1.8vw,1.5rem) 'Cormorant Garamond',serif;color:var(--wine);margin:0 0 20px}
-.countdown{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:550px;margin:auto}.unit{padding:5px 3px;min-width:0}.unit:not(:last-child){border-right:1px solid var(--gold)}.num{display:block;font:400 clamp(2rem,3.2vw,3.1rem)/1 'Cormorant Garamond',serif;font-variant-numeric:tabular-nums;color:var(--wine)}.unit small{display:block;font-size:.59rem;letter-spacing:.13em;color:var(--orange);margin-top:8px;font-weight:600}
-.save{font:400 clamp(1.5rem,2.5vw,2.55rem) 'Cormorant Garamond',serif;color:var(--wine);letter-spacing:.26em;text-align:center;margin:40px 0 0}.save::before{content:"◆";color:var(--gold);display:block;font-size:15px;letter-spacing:0;margin-bottom:13px}
-@media(max-width:800px){.site{padding:14px}.frame{padding:55px 18px 35px}.content{grid-template-columns:1fr;gap:36px;max-width:570px}.corner.top{width:190px}.corner.bottom{width:260px}h1{font-size:clamp(3.3rem,11vw,5.5rem)}.save{margin-top:38px}.details{letter-spacing:.2em}}
-@media(max-width:400px){.frame{padding:54px 12px 28px}h1{font-size:3.1rem}.unit small{font-size:.47rem}.num{font-size:1.9rem}.corner.top{width:150px}.corner.bottom{width:190px}}
+h1{font:400 clamp(3.6rem,6.4vw,6.6rem)/1.11 'Great Vibes',cursive;margin:0;color:var(--wine);white-space:nowrap}
+h1 span{display:inline}
+.names{font:400 clamp(2.3rem,3.4vw,3.6rem)/1.12 'Great Vibes',cursive;color:var(--orange);margin:3px 0 8px}
+.ornament{display:flex;align-items:center;justify-content:center;gap:14px;color:var(--gold);font-size:15px}.ornament:before,.ornament:after{content:'';height:1px;width:80px;background:var(--gold)}
+.details-grid{display:grid;grid-template-columns:1.08fr .92fr;align-items:center;gap:clamp(24px,4vw,65px);margin:26px auto 0;max-width:1200px;position:relative;z-index:2}
+.proposal{margin:0;min-width:0}.proposal img{display:block;width:100%;height:auto;border:9px solid #fff7ec;outline:1px solid #d4b88e;box-shadow:0 12px 24px #482b1819}
+.information{text-align:center;min-width:0}.theme{font:italic 500 clamp(1.5rem,2.2vw,2rem) 'Cormorant Garamond',serif;margin:0 0 12px}
+.rule{height:1px;width:100px;background:var(--gold);margin:0 auto 16px}
+.date{font:400 clamp(2.25rem,3.7vw,3.85rem)/1.1 'Cormorant Garamond',serif;margin:0 0 14px;white-space:nowrap}
+.coming{margin:0 0 15px;color:var(--orange);letter-spacing:.25em;font-size:.75rem;font-weight:600}
+.subtitle{font:italic 400 clamp(1.2rem,1.7vw,1.5rem) 'Cormorant Garamond',serif;margin:0 0 18px}
+.countdown{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:auto;max-width:530px}
+.unit{min-width:0;padding:3px}.unit+.unit{border-left:1px solid var(--gold)}
+.number{display:block;font:400 clamp(2rem,3vw,3rem)/1 'Cormorant Garamond',serif;font-variant-numeric:tabular-nums}
+.unit small{display:block;color:var(--orange);font-size:.58rem;letter-spacing:.1em;margin-top:7px;font-weight:600}
+.save{text-align:center;margin:36px 0 0;position:relative;z-index:2;font:400 clamp(1.65rem,2.5vw,2.5rem) 'Cormorant Garamond',serif;letter-spacing:.22em}
+.save:before{content:'◆';display:block;color:var(--gold);font-size:13px;letter-spacing:0;margin-bottom:10px}
+@media(max-width:800px){
+.page{padding:12px;align-items:flex-start}.paper{padding:42px 15px 28px;outline-offset:-7px}
+h1{font-size:clamp(2.7rem,11.5vw,4.9rem);line-height:1.02;white-space:normal}
+h1 span{display:block;white-space:nowrap}.names{font-size:clamp(2.1rem,7.9vw,3.3rem);margin-top:14px}
+.details-grid{grid-template-columns:1fr;gap:35px;max-width:590px;margin-top:35px}
+.proposal img{border-width:6px}.date{font-size:clamp(2.2rem,8vw,3.5rem)}.coming{font-size:.68rem;letter-spacing:.15em}.countdown{max-width:420px}
+.floral.top{width:160px;top:-6px;right:-7px;opacity:.75}.floral.bottom{width:200px;bottom:-8px;left:-10px;opacity:.75}
+.save{font-size:clamp(1.7rem,6vw,2.25rem);margin:56px 0 20px;letter-spacing:.14em}
+}
+@media(max-width:420px){h1{font-size:clamp(2.6rem,11vw,3.3rem)}.names{font-size:clamp(2rem,8vw,2.7rem)}.floral.top{width:120px}.floral.bottom{width:135px}.number{font-size:1.9rem}.unit small{font-size:.46rem}.paper{padding-left:11px;padding-right:11px}}
 </style>
 </head>
 <body>
-<div class="site">
-<img class="corner top" src="assets/floral-top.png" alt="" aria-hidden="true">
-<img class="corner bottom" src="assets/floral-bottom.png" alt="" aria-hidden="true">
-<div class="frame">
-<header><h1>The BreedLoveXXperience</h1><p class="couple">LaShanna &amp; Rodney</p><div class="ornament" aria-hidden="true">◆</div></header>
-<main class="content">
-<figure class="photo"><img src="assets/proposal.jpeg" alt="Rodney proposing to LaShanna in Mexico City, surrounded by an applauding crowd" fetchpriority="high"></figure>
-<section class="info" aria-label="Wedding announcement and countdown">
+<div class="page">
+<img class="floral top" src="assets/floral-top.png" alt="" aria-hidden="true">
+<img class="floral bottom" src="assets/floral-bottom.png" alt="" aria-hidden="true">
+<div class="paper">
+<header><h1><span>The</span> <span>BreedLove</span><span>XXperience</span></h1><p class="names">Rodney &amp; LaShanna</p><div class="ornament" aria-hidden="true">◆</div></header>
+<main class="details-grid">
+<figure class="proposal"><img src="assets/proposal.jpeg" alt="Rodney proposing to LaShanna, surrounded by an applauding crowd" fetchpriority="high"></figure>
+<section class="information" aria-label="Wedding date and countdown">
 <p class="theme">Our Love. Our Way.</p><div class="rule" aria-hidden="true"></div>
-<p class="date">October 10, 2027</p>
-<p class="details">DETAILS COMING SOON</p>
-<p class="sub">Counting down to forever</p>
-<div class="countdown" role="timer" aria-label="Time remaining to the wedding">
-<div class="unit"><span id="days" class="num">—</span><small>DAYS</small></div>
-<div class="unit"><span id="hours" class="num">—</span><small>HOURS</small></div>
-<div class="unit"><span id="minutes" class="num">—</span><small>MINUTES</small></div>
-<div class="unit"><span id="seconds" class="num">—</span><small>SECONDS</small></div>
+<p class="date">October 10, 2027</p><p class="coming">DETAILS COMING SOON</p><p class="subtitle">Counting down to forever</p>
+<div class="countdown" role="timer" aria-label="Time remaining until October 10, 2027">
+<div class="unit"><span class="number" id="days">—</span><small>DAYS</small></div>
+<div class="unit"><span class="number" id="hours">—</span><small>HOURS</small></div>
+<div class="unit"><span class="number" id="minutes">—</span><small>MINUTES</small></div>
+<div class="unit"><span class="number" id="seconds">—</span><small>SECONDS</small></div>
 </div></section></main>
 <p class="save">SAVE THE DATE</p>
 </div></div>
 <script>
-// Midnight Eastern on the wedding date; update to the ceremony time once confirmed.
 const weddingTime=new Date('2027-10-10T00:00:00-04:00').getTime();
 const ids=['days','hours','minutes','seconds'];
-function updateCountdown(){const d=Math.max(0,weddingTime-Date.now());const parts=[Math.floor(d/86400000),Math.floor(d/3600000)%24,Math.floor(d/60000)%60,Math.floor(d/1000)%60];parts.forEach((n,i)=>document.getElementById(ids[i]).textContent=i===0?String(n):String(n).padStart(2,'0'));}
+function updateCountdown(){const delta=Math.max(0,weddingTime-Date.now());const times=[Math.floor(delta/86400000),Math.floor(delta/3600000)%24,Math.floor(delta/60000)%60,Math.floor(delta/1000)%60];times.forEach((value,i)=>{document.getElementById(ids[i]).textContent=i===0?String(value):String(value).padStart(2,'0')})}
 updateCountdown();setInterval(updateCountdown,1000);
 </script>
-</body>
-</html>
+</body></html>
